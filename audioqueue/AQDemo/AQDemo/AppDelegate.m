@@ -7,16 +7,23 @@
 //
 
 #import "AppDelegate.h"
+#import "SocketComm.h"
+#import "udpsocket.h"
 
 @interface AppDelegate ()
 
 @end
+SocketComm *sock;
+char *Gbuffer;
+udpsocket *udp;
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    udp =[[udpsocket alloc]init];
+    Gbuffer = (char*)malloc(50000*(sizeof(char)));
     return YES;
 }
 

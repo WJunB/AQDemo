@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "AQSController.h"
+
 
 @interface ViewController ()
 
@@ -24,4 +26,20 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)touch:(id)sender {
+    
+    AQSController   *aqc =[AQSController alloc];
+    [aqc awakeFromNib];
+    [aqc record];
+
+    
+}
+
+- (IBAction)stop:(id)sender {
+    
+    
+}
+-(void) dealloc{
+    
+}
 @end

@@ -15,6 +15,19 @@
 		BF9610551C96DC8700504A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9610531C96DC8700504A25 /* LaunchScreen.storyboard */; };
 		BF9610601C96DC8700504A25 /* AQDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96105F1C96DC8700504A25 /* AQDemoTests.m */; };
 		BF96106B1C96DC8800504A25 /* AQDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF96106A1C96DC8800504A25 /* AQDemoUITests.m */; };
+		BF9610801C96DEE200504A25 /* play.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF96107B1C96DEE200504A25 /* play.mm */; };
+		BF9610811C96DEE200504A25 /* Record.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF96107D1C96DEE200504A25 /* Record.mm */; };
+		BF9610821C96DEE200504A25 /* AQSController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF96107F1C96DEE200504A25 /* AQSController.mm */; };
+		BF96108B1C96DEF200504A25 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610841C96DEF200504A25 /* GCDAsyncUdpSocket.m */; };
+		BF96108C1C96DEF200504A25 /* package.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610861C96DEF200504A25 /* package.m */; };
+		BF96108D1C96DEF200504A25 /* SocketComm.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610881C96DEF200504A25 /* SocketComm.m */; };
+		BF96108E1C96DEF200504A25 /* udpsocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF96108A1C96DEF200504A25 /* udpsocket.mm */; };
+		BF9610901C96E4F400504A25 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF96108F1C96E4F400504A25 /* AudioToolbox.framework */; };
+		BF9610921C96E51300504A25 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9610911C96E51300504A25 /* AVFoundation.framework */; };
+		BF9610941C96E52000504A25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9610931C96E52000504A25 /* UIKit.framework */; };
+		BF9610961C96E52800504A25 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9610951C96E52800504A25 /* CoreFoundation.framework */; };
+		BF9610981C96E53800504A25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9610971C96E53800504A25 /* CoreGraphics.framework */; };
+		BF96109A1C96E54200504A25 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9610991C96E54200504A25 /* CoreAudio.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,26 @@
 		BF9610661C96DC8800504A25 /* AQDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AQDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF96106A1C96DC8800504A25 /* AQDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AQDemoUITests.m; sourceTree = "<group>"; };
 		BF96106C1C96DC8800504A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF96107A1C96DEE200504A25 /* play.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = play.h; path = AQDemo/Classes/play.h; sourceTree = "<group>"; };
+		BF96107B1C96DEE200504A25 /* play.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = play.mm; path = AQDemo/Classes/play.mm; sourceTree = "<group>"; };
+		BF96107C1C96DEE200504A25 /* Record.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Record.h; path = AQDemo/Classes/Record.h; sourceTree = "<group>"; };
+		BF96107D1C96DEE200504A25 /* Record.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Record.mm; path = AQDemo/Classes/Record.mm; sourceTree = "<group>"; };
+		BF96107E1C96DEE200504A25 /* AQSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AQSController.h; path = AQDemo/Classes/AQSController.h; sourceTree = "<group>"; };
+		BF96107F1C96DEE200504A25 /* AQSController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AQSController.mm; path = AQDemo/Classes/AQSController.mm; sourceTree = "<group>"; };
+		BF9610831C96DEF200504A25 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = AQDemo/gcd/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		BF9610841C96DEF200504A25 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = AQDemo/gcd/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		BF9610851C96DEF200504A25 /* package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = package.h; path = AQDemo/gcd/package.h; sourceTree = "<group>"; };
+		BF9610861C96DEF200504A25 /* package.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = package.m; path = AQDemo/gcd/package.m; sourceTree = "<group>"; };
+		BF9610871C96DEF200504A25 /* SocketComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketComm.h; path = AQDemo/gcd/SocketComm.h; sourceTree = "<group>"; };
+		BF9610881C96DEF200504A25 /* SocketComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketComm.m; path = AQDemo/gcd/SocketComm.m; sourceTree = "<group>"; };
+		BF9610891C96DEF200504A25 /* udpsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = udpsocket.h; path = AQDemo/gcd/udpsocket.h; sourceTree = "<group>"; };
+		BF96108A1C96DEF200504A25 /* udpsocket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = udpsocket.mm; path = AQDemo/gcd/udpsocket.mm; sourceTree = "<group>"; };
+		BF96108F1C96E4F400504A25 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BF9610911C96E51300504A25 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BF9610931C96E52000504A25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF9610951C96E52800504A25 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		BF9610971C96E53800504A25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF9610991C96E54200504A25 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF96109A1C96E54200504A25 /* CoreAudio.framework in Frameworks */,
+				BF9610981C96E53800504A25 /* CoreGraphics.framework in Frameworks */,
+				BF9610961C96E52800504A25 /* CoreFoundation.framework in Frameworks */,
+				BF9610941C96E52000504A25 /* UIKit.framework in Frameworks */,
+				BF9610921C96E51300504A25 /* AVFoundation.framework in Frameworks */,
+				BF9610901C96E4F400504A25 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +120,14 @@
 		BF9610391C96DC8700504A25 = {
 			isa = PBXGroup;
 			children = (
+				BF9610991C96E54200504A25 /* CoreAudio.framework */,
+				BF9610971C96E53800504A25 /* CoreGraphics.framework */,
+				BF9610951C96E52800504A25 /* CoreFoundation.framework */,
+				BF9610931C96E52000504A25 /* UIKit.framework */,
+				BF9610911C96E51300504A25 /* AVFoundation.framework */,
+				BF96108F1C96E4F400504A25 /* AudioToolbox.framework */,
+				BF9610791C96DECD00504A25 /* class */,
+				BF9610781C96DEC700504A25 /* gcd */,
 				BF9610441C96DC8700504A25 /* AQDemo */,
 				BF96105E1C96DC8700504A25 /* AQDemoTests */,
 				BF9610691C96DC8800504A25 /* AQDemoUITests */,
@@ -138,6 +185,34 @@
 				BF96106C1C96DC8800504A25 /* Info.plist */,
 			);
 			path = AQDemoUITests;
+			sourceTree = "<group>";
+		};
+		BF9610781C96DEC700504A25 /* gcd */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610831C96DEF200504A25 /* GCDAsyncUdpSocket.h */,
+				BF9610841C96DEF200504A25 /* GCDAsyncUdpSocket.m */,
+				BF9610851C96DEF200504A25 /* package.h */,
+				BF9610861C96DEF200504A25 /* package.m */,
+				BF9610871C96DEF200504A25 /* SocketComm.h */,
+				BF9610881C96DEF200504A25 /* SocketComm.m */,
+				BF9610891C96DEF200504A25 /* udpsocket.h */,
+				BF96108A1C96DEF200504A25 /* udpsocket.mm */,
+			);
+			name = gcd;
+			sourceTree = "<group>";
+		};
+		BF9610791C96DECD00504A25 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				BF96107A1C96DEE200504A25 /* play.h */,
+				BF96107B1C96DEE200504A25 /* play.mm */,
+				BF96107C1C96DEE200504A25 /* Record.h */,
+				BF96107D1C96DEE200504A25 /* Record.mm */,
+				BF96107E1C96DEE200504A25 /* AQSController.h */,
+				BF96107F1C96DEE200504A25 /* AQSController.mm */,
+			);
+			name = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +345,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF96108C1C96DEF200504A25 /* package.m in Sources */,
 				BF96104D1C96DC8700504A25 /* ViewController.m in Sources */,
+				BF96108E1C96DEF200504A25 /* udpsocket.mm in Sources */,
+				BF96108D1C96DEF200504A25 /* SocketComm.m in Sources */,
 				BF96104A1C96DC8700504A25 /* AppDelegate.m in Sources */,
+				BF9610811C96DEE200504A25 /* Record.mm in Sources */,
+				BF9610801C96DEE200504A25 /* play.mm in Sources */,
+				BF96108B1C96DEF200504A25 /* GCDAsyncUdpSocket.m in Sources */,
 				BF9610471C96DC8700504A25 /* main.m in Sources */,
+				BF9610821C96DEE200504A25 /* AQSController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AQDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AQDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AQDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AQDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

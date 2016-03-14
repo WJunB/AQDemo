@@ -11,5 +11,10 @@
 @interface ViewController : UIViewController
 
 
+
+
+- (IBAction)touch:(id)sender;
+- (IBAction)stop:(id)sender;
+
 @end
 
