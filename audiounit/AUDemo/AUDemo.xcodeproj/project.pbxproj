@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9610A91C97CB2900504A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610A81C97CB2900504A25 /* main.m */; };
+		BF9610AC1C97CB2900504A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610AB1C97CB2900504A25 /* AppDelegate.m */; };
+		BF9610AF1C97CB2900504A25 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610AE1C97CB2900504A25 /* RootViewController.m */; };
+		BF9610B21C97CB2900504A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9610B01C97CB2900504A25 /* Main.storyboard */; };
+		BF9610B41C97CB2900504A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9610B31C97CB2900504A25 /* Assets.xcassets */; };
+		BF9610B71C97CB2900504A25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9610B51C97CB2900504A25 /* LaunchScreen.storyboard */; };
+		BF9610C21C97CB2A00504A25 /* AUDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610C11C97CB2A00504A25 /* AUDemoTests.m */; };
+		BF9610CD1C97CB2A00504A25 /* AUDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610CC1C97CB2A00504A25 /* AUDemoUITests.m */; };
+		BF9610E41C97CB7900504A25 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610DD1C97CB7800504A25 /* GCDAsyncUdpSocket.m */; };
+		BF9610E51C97CB7900504A25 /* package.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610DF1C97CB7900504A25 /* package.m */; };
+		BF9610E61C97CB7900504A25 /* SocketComm.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9610E11C97CB7900504A25 /* SocketComm.m */; };
+		BF9610E71C97CB7900504A25 /* udpsocket.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF9610E31C97CB7900504A25 /* udpsocket.mm */; };
+		BF9610F31C97CF7600504A25 /* InMemoryAudioFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = BF9610F11C97CF7600504A25 /* InMemoryAudioFile.mm */; };
+		BF9610F51C97D03700504A25 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9610F41C97D03700504A25 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9610BE1C97CB2A00504A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF96109C1C97CB2900504A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9610A31C97CB2900504A25;
+			remoteInfo = AUDemo;
+		};
+		BF9610C91C97CB2A00504A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF96109C1C97CB2900504A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9610A31C97CB2900504A25;
+			remoteInfo = AUDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF9610A41C97CB2900504A25 /* AUDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AUDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9610A81C97CB2900504A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF9610AA1C97CB2900504A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF9610AB1C97CB2900504A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF9610AD1C97CB2900504A25 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BF9610AE1C97CB2900504A25 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BF9610B11C97CB2900504A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF9610B31C97CB2900504A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9610B61C97CB2900504A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF9610B81C97CB2900504A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9610BD1C97CB2A00504A25 /* AUDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9610C11C97CB2A00504A25 /* AUDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUDemoTests.m; sourceTree = "<group>"; };
+		BF9610C31C97CB2A00504A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9610C81C97CB2A00504A25 /* AUDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9610CC1C97CB2A00504A25 /* AUDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUDemoUITests.m; sourceTree = "<group>"; };
+		BF9610CE1C97CB2A00504A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9610DC1C97CB7800504A25 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = AUDemo/gcd/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		BF9610DD1C97CB7800504A25 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = AUDemo/gcd/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		BF9610DE1C97CB7900504A25 /* package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = package.h; path = AUDemo/gcd/package.h; sourceTree = "<group>"; };
+		BF9610DF1C97CB7900504A25 /* package.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = package.m; path = AUDemo/gcd/package.m; sourceTree = "<group>"; };
+		BF9610E01C97CB7900504A25 /* SocketComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SocketComm.h; path = AUDemo/gcd/SocketComm.h; sourceTree = "<group>"; };
+		BF9610E11C97CB7900504A25 /* SocketComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SocketComm.m; path = AUDemo/gcd/SocketComm.m; sourceTree = "<group>"; };
+		BF9610E21C97CB7900504A25 /* udpsocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = udpsocket.h; path = AUDemo/gcd/udpsocket.h; sourceTree = "<group>"; };
+		BF9610E31C97CB7900504A25 /* udpsocket.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = udpsocket.mm; path = AUDemo/gcd/udpsocket.mm; sourceTree = "<group>"; };
+		BF9610F11C97CF7600504A25 /* InMemoryAudioFile.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = InMemoryAudioFile.mm; path = AUDemo/Classes/InMemoryAudioFile.mm; sourceTree = "<group>"; };
+		BF9610F21C97CF7600504A25 /* InMemoryAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InMemoryAudioFile.h; path = AUDemo/Classes/InMemoryAudioFile.h; sourceTree = "<group>"; };
+		BF9610F41C97D03700504A25 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9610A11C97CB2900504A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9610F51C97D03700504A25 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9610BA1C97CB2A00504A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9610C51C97CB2A00504A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF96109B1C97CB2900504A25 = {
+			isa = PBXGroup;
+			children = (
+				BF9610F41C97D03700504A25 /* AudioToolbox.framework */,
+				BF9610DB1C97CB4000504A25 /* gcd */,
+				BF9610DA1C97CB3600504A25 /* class */,
+				BF9610A61C97CB2900504A25 /* AUDemo */,
+				BF9610C01C97CB2A00504A25 /* AUDemoTests */,
+				BF9610CB1C97CB2A00504A25 /* AUDemoUITests */,
+				BF9610A51C97CB2900504A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9610A51C97CB2900504A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610A41C97CB2900504A25 /* AUDemo.app */,
+				BF9610BD1C97CB2A00504A25 /* AUDemoTests.xctest */,
+				BF9610C81C97CB2A00504A25 /* AUDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9610A61C97CB2900504A25 /* AUDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610AA1C97CB2900504A25 /* AppDelegate.h */,
+				BF9610AB1C97CB2900504A25 /* AppDelegate.m */,
+				BF9610AD1C97CB2900504A25 /* RootViewController.h */,
+				BF9610AE1C97CB2900504A25 /* RootViewController.m */,
+				BF9610B01C97CB2900504A25 /* Main.storyboard */,
+				BF9610B31C97CB2900504A25 /* Assets.xcassets */,
+				BF9610B51C97CB2900504A25 /* LaunchScreen.storyboard */,
+				BF9610B81C97CB2900504A25 /* Info.plist */,
+				BF9610A71C97CB2900504A25 /* Supporting Files */,
+			);
+			path = AUDemo;
+			sourceTree = "<group>";
+		};
+		BF9610A71C97CB2900504A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610A81C97CB2900504A25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9610C01C97CB2A00504A25 /* AUDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610C11C97CB2A00504A25 /* AUDemoTests.m */,
+				BF9610C31C97CB2A00504A25 /* Info.plist */,
+			);
+			path = AUDemoTests;
+			sourceTree = "<group>";
+		};
+		BF9610CB1C97CB2A00504A25 /* AUDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610CC1C97CB2A00504A25 /* AUDemoUITests.m */,
+				BF9610CE1C97CB2A00504A25 /* Info.plist */,
+			);
+			path = AUDemoUITests;
+			sourceTree = "<group>";
+		};
+		BF9610DA1C97CB3600504A25 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610F11C97CF7600504A25 /* InMemoryAudioFile.mm */,
+				BF9610F21C97CF7600504A25 /* InMemoryAudioFile.h */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		BF9610DB1C97CB4000504A25 /* gcd */ = {
+			isa = PBXGroup;
+			children = (
+				BF9610DC1C97CB7800504A25 /* GCDAsyncUdpSocket.h */,
+				BF9610DD1C97CB7800504A25 /* GCDAsyncUdpSocket.m */,
+				BF9610DE1C97CB7900504A25 /* package.h */,
+				BF9610DF1C97CB7900504A25 /* package.m */,
+				BF9610E01C97CB7900504A25 /* SocketComm.h */,
+				BF9610E11C97CB7900504A25 /* SocketComm.m */,
+				BF9610E21C97CB7900504A25 /* udpsocket.h */,
+				BF9610E31C97CB7900504A25 /* udpsocket.mm */,
+			);
+			name = gcd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9610A31C97CB2900504A25 /* AUDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9610D11C97CB2A00504A25 /* Build configuration list for PBXNativeTarget "AUDemo" */;
+			buildPhases = (
+				BF9610A01C97CB2900504A25 /* Sources */,
+				BF9610A11C97CB2900504A25 /* Frameworks */,
+				BF9610A21C97CB2900504A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AUDemo;
+			productName = AUDemo;
+			productReference = BF9610A41C97CB2900504A25 /* AUDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9610BC1C97CB2A00504A25 /* AUDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9610D41C97CB2A00504A25 /* Build configuration list for PBXNativeTarget "AUDemoTests" */;
+			buildPhases = (
+				BF9610B91C97CB2A00504A25 /* Sources */,
+				BF9610BA1C97CB2A00504A25 /* Frameworks */,
+				BF9610BB1C97CB2A00504A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9610BF1C97CB2A00504A25 /* PBXTargetDependency */,
+			);
+			name = AUDemoTests;
+			productName = AUDemoTests;
+			productReference = BF9610BD1C97CB2A00504A25 /* AUDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF9610C71C97CB2A00504A25 /* AUDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9610D71C97CB2A00504A25 /* Build configuration list for PBXNativeTarget "AUDemoUITests" */;
+			buildPhases = (
+				BF9610C41C97CB2A00504A25 /* Sources */,
+				BF9610C51C97CB2A00504A25 /* Frameworks */,
+				BF9610C61C97CB2A00504A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9610CA1C97CB2A00504A25 /* PBXTargetDependency */,
+			);
+			name = AUDemoUITests;
+			productName = AUDemoUITests;
+			productReference = BF9610C81C97CB2A00504A25 /* AUDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF96109C1C97CB2900504A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jun;
+				TargetAttributes = {
+					BF9610A31C97CB2900504A25 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BF9610BC1C97CB2A00504A25 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BF9610A31C97CB2900504A25;
+					};
+					BF9610C71C97CB2A00504A25 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BF9610A31C97CB2900504A25;
+					};
+				};
+			};
+			buildConfigurationList = BF96109F1C97CB2900504A25 /* Build configuration list for PBXProject "AUDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF96109B1C97CB2900504A25;
+			productRefGroup = BF9610A51C97CB2900504A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9610A31C97CB2900504A25 /* AUDemo */,
+				BF9610BC1C97CB2A00504A25 /* AUDemoTests */,
+				BF9610C71C97CB2A00504A25 /* AUDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9610A21C97CB2900504A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9610B71C97CB2900504A25 /* LaunchScreen.storyboard in Resources */,
+				BF9610B41C97CB2900504A25 /* Assets.xcassets in Resources */,
+				BF9610B21C97CB2900504A25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9610BB1C97CB2A00504A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9610C61C97CB2A00504A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9610A01C97CB2900504A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9610F31C97CF7600504A25 /* InMemoryAudioFile.mm in Sources */,
+				BF9610E71C97CB7900504A25 /* udpsocket.mm in Sources */,
+				BF9610E51C97CB7900504A25 /* package.m in Sources */,
+				BF9610E41C97CB7900504A25 /* GCDAsyncUdpSocket.m in Sources */,
+				BF9610E61C97CB7900504A25 /* SocketComm.m in Sources */,
+				BF9610AF1C97CB2900504A25 /* RootViewController.m in Sources */,
+				BF9610AC1C97CB2900504A25 /* AppDelegate.m in Sources */,
+				BF9610A91C97CB2900504A25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9610B91C97CB2A00504A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9610C21C97CB2A00504A25 /* AUDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9610C41C97CB2A00504A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9610CD1C97CB2A00504A25 /* AUDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9610BF1C97CB2A00504A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9610A31C97CB2900504A25 /* AUDemo */;
+			targetProxy = BF9610BE1C97CB2A00504A25 /* PBXContainerItemProxy */;
+		};
+		BF9610CA1C97CB2A00504A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9610A31C97CB2900504A25 /* AUDemo */;
+			targetProxy = BF9610C91C97CB2A00504A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9610B01C97CB2900504A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9610B11C97CB2900504A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9610B51C97CB2900504A25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9610B61C97CB2900504A25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9610CF1C97CB2A00504A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF9610D01C97CB2A00504A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9610D21C97CB2A00504A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AUDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AUDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF9610D31C97CB2A00504A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AUDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AUDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF9610D51C97CB2A00504A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AUDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AUDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AUDemo.app/AUDemo";
+			};
+			name = Debug;
+		};
+		BF9610D61C97CB2A00504A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AUDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AUDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AUDemo.app/AUDemo";
+			};
+			name = Release;
+		};
+		BF9610D81C97CB2A00504A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AUDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AUDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AUDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF9610D91C97CB2A00504A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AUDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = X.Lab.AUDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AUDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF96109F1C97CB2900504A25 /* Build configuration list for PBXProject "AUDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9610CF1C97CB2A00504A25 /* Debug */,
+				BF9610D01C97CB2A00504A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9610D11C97CB2A00504A25 /* Build configuration list for PBXNativeTarget "AUDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9610D21C97CB2A00504A25 /* Debug */,
+				BF9610D31C97CB2A00504A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9610D41C97CB2A00504A25 /* Build configuration list for PBXNativeTarget "AUDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9610D51C97CB2A00504A25 /* Debug */,
+				BF9610D61C97CB2A00504A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF9610D71C97CB2A00504A25 /* Build configuration list for PBXNativeTarget "AUDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9610D81C97CB2A00504A25 /* Debug */,
+				BF9610D91C97CB2A00504A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF96109C1C97CB2900504A25 /* Project object */;
+}
